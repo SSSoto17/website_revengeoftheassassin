@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin's Revenge</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="svg/logo.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/67f49ad00c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="spil.html">Game</a></li>
+                <li><a href="grafik.html">Graphics</a></li>
+                <li><a href="assets.html">Assets</a></li>
+                <li><a href="teknik.html">Technique</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="page_banner">
+            <div class="main_container">
+                <h1>Assets</h1>
+                <p>Here on the page you will find the finished assets implemented in my game, including graphic
+                    elements and sound effects. All graphics were finalised with Adobe Illustrator and Adobe Photoshop.
+                </p>
+            </div>
+        </div>
+        <div id="assets_page">
+            <div class="main_container">
+                <h2>Screens</h2>
+                <div class="spotlight grid_1-1">
+                    <div>
+                        <img src="webp/background.webp" alt="A desert landscape">
+                        <h4 style="margin-top: 0.5rem">Finished background</h4>
+                    </div>
+                    <div>
+                        <img src="webp/title_screen.webp" alt="Title screen">
+                        <h4 style="margin-top: 0.5rem">Title screen</h4>
+                    </div>
+                    <div>
+                        <img src="webp/levelcomplete_okay.webp" alt="Level complete 20> points">
+                        <h4 style="margin-top: 0.5rem">Level complete 20> points</h4>
+                    </div>
+                    <div>
+                        <img src="webp/levelcomplete_great.webp" alt="Level complete 35> points">
+                        <h4 style="margin-top: 0.5rem">Level complete 35> points</h4>
+                    </div>
+                    <div>
+                        <img src="webp/levelcomplete_amazing.webp" alt="Level complete 50> points">
+                        <h4 style="margin-top: 0.5rem">Level complete 50> points</h4>
+                    </div>
+                    <div>
+                        <img src="webp/gameover.webp" alt="Game over screen">
+                        <h4 style="margin-top: 0.5rem">Game over screen</h4>
+                    </div>
+                </div>
+                <h2>Characters</h2>
+                <div class="spotlight grid_1-1">
+                    <h4 style="text-align: center; grid-column: 1 / 3 span;">Assassin</h4>
+                    <img src="svg/character/aedan.svg" alt="Main character">
+                    <img src="svg/character/aedan_lost.svg" alt="Defeat">
+                </div>
+                <div class="spotlight grid_1-1-1">
+                    <div>
+                        <img src="svg/element_cultist.svg" alt="Cultist">
+                        <h4>Cultist</h4>
+                    </div>
+                    <div>
+                        <img src="svg/element_criminal.svg" alt="Criminal">
+                        <h4>Criminal</h4>
+                    </div>
+                    <div>
+                        <img src="svg/element_civilian.svg" alt="Civilian">
+                        <h4>Civilian</h4>
+                    </div>
+                    <div style="grid-column: 2;">
+                        <img src="svg/element_life.svg" alt="Life">
+                        <h4>Life</h4>
+                    </div>
+                </div>
+                <h2>UI</h2>
+                <div class="spotlight grid_1-1">
+                    <div><img src="webp/timer+score.webp" alt="Timer and score board"
+                            style="height: 30rem; object-fit: contain;">
+                        <h4>Timer and points</h4>
+                    </div>
+                    <div>
+                        <img src="svg/ui_life.svg" alt="Life displayed on UI"
+                            style="height: 30rem; object-fit: contain; scale: 75%;">
+                        <h4>Lives</h4>
+                    </div>
+                </div>
+                <h2>Sound FX</h2>
+                <div class="spotlight grid_1-1-1 not_centered">
+                    <div>
+                        <h4 style="text-align: left;">Background music</h4>
+                        <audio src="sound/bg_music.mp3" controls></audio>
+                    </div>
+                    <div>
+                        <h4 style="text-align: left;">Knife</h4>
+                        <audio src="sound/knife_slash.wav" controls></audio>
+                        <audio src="sound/knife_stab.mp3" controls></audio>
+                    </div>
+                    <div>
+                        <h4 style="text-align: left;">Heart</h4>
+                        <audio src="sound/heart.mp3" controls></audio>
+                    </div>
+                    <div>
+                        <h4 style="text-align: left;">Cultist laugh</h4>
+                        <audio src="sound/evil_laugh.wav" controls></audio>
+                    </div>
+                    <div>
+                        <h4 style="text-align: left;">Criminal grunts</h4>
+                        <audio src="sound/grunt1.wav" controls></audio>
+                        <audio src="sound/grunt2.wav" controls></audio>
+                        <audio src="sound/grunt3.wav" controls></audio>
+                        <audio src="sound/grunt4.wav" controls></audio>
+                        <audio src="sound/grunt5.wav" controls></audio>
+                        <audio src="sound/grunt6.wav" controls></audio>
+                    </div>
+                    <div>
+                        <h4 style="text-align: left;">Civilian cries</h4>
+                        <audio src="sound/cry1.wav" controls></audio>
+                        <audio src="sound/cry2.wav" controls></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© Sabrina S. Soto</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
